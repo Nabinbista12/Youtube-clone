@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <!-- This is the navbar of the youtube where there seach option profile and other things.  -->
+    <header>
+        <div class="navbar">
+            <!-- This has the youtube logo and menu.  -->
+            <div class="nav-first">
+                <div class="hover-button">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <h2><i class="fa-brands fa-youtube"></i><span>YouTube</span><sup>NP</sup></h2>
+                <div class="youtube-bg">
+                </div>
+            </div>
+            
+            <!-- in the middle in the youtube search and mic option  -->
+            <div class="nav-middle">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <buttton class="search-mic"><i class="fa-solid fa-microphone"></i></buttton>
+            </div>
+
+            <!-- In the last of the create, subscript and profile option.  -->
+            <div class="nav-last">
+                <button class="nav-create"><i class="fa-solid fa-plus"></i><span>Create</span></button>
+                <div class="hover-button">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+                <i class="fa-regular fa-circle-user"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- This is the main side of the youtube.  -->
+    <main class="body">
+        <!-- This html is for the sidebar of the youtube where the home, shorts subscription are available.  -->
+        <div class="sidebar">
+            
+            <!-- This html is for the home, shorts and subscription. -->
+            <div class="main-sidebar">
+
+                <!-- Home  -->
+                <div style="background-color: #282828; border-radius: .5rem;" class="sidebar-icon sidebar-home">
+                    <h3 style="background-color: transparent;"><i class="fa-solid fa-house"></i></h3>
+                    <p style="background-color: transparent;">Home</p>
+                </div>
+
+                <!-- Shorts  -->
+                <div class="sidebar-icon sidebar-shorts">
+                    <h3 style="background-color: transparent;"><i class="fa-regular fa-circle-play"></i></h3>
+                    <p style="background-color: transparent;">Shorts</p>
+                </div>
+
+                <!-- Subscription.  -->
+                <div class="sidebar-icon sidebar-subscription">
+                    <h3 style="background-color: transparent;"><i class="fa-brands fa-youtube"></i></h3>
+                    <p style="background-color: transparent;">Subscription</p>
+                </div>
+            </div>
+            
+            <div class="hr"></div>
+            
+            <!-- This html is for the sidebar of the youtube.  -->
+             <!-- 2 -->
+              <!-- 2 -->
+            <div class="second-sidebar">
+                <!-- This is for the you option.  -->
+                <div class="sidebar-you">
+                    <p style="background-color: transparent;">You</p>
+                    <i  style="background-color: transparent;" class="fa-solid fa-chevron-right"></i>
+                </div>
+
+                <!-- History  -->
+                <div class="sidebar-icon sidebar-history">
+                    <h3 style="background-color: transparent;"><i class="fa-solid fa-clock-rotate-left"></i></i></h3>
+                    <p style="background-color: transparent;">History</p>
+                </div>
+
+                <!-- Playlist  -->
+                <div class="sidebar-icon sidebar-Playlist">
+                    <h3 style="background-color: transparent;"><i class="fa-solid fa-bars"></i></h3>
+                    <p style="background-color: transparent;">Playlist</p>
+                </div>
+
+                <!-- Your Videos  -->
+                <div class="sidebar-icon sidebar-videos">
+                    <h3 style="background-color: transparent;"><i class="fa-solid fa-circle-play"></i></h3>
+                    <p style="background-color: transparent;">Your Videos</p>
+                </div>
+
+                <!-- Your Course  -->
+                <div class="sidebar-icon sidebar-course">
+                    <h3 style="background-color: transparent;"><i class="fa-solid fa-graduation-cap"></i></h3>
+                    <p style="background-color: transparent;">Your Course</p>
+                </div>
+
+                <!-- Watch Later.  -->
+                <div class="sidebar-icon sidebar-watch-later">
+                    <h3 style="background-color: transparent;"><i class="fa-solid fa-clock"></i></h3>
+                    <p style="background-color: transparent;">Watch Later</p>
+                </div>
+
+                <!-- Liked Videos.  -->
+                <div class="sidebar-icon sidebar-subscription">
+                    <h3 style="background-color: transparent;"><i class="fa-regular fa-thumbs-up"></i></h3>
+                    <p style="background-color: transparent;">Liked Videos</p>
+                </div>
+
+                <!-- Liked Clips.  -->
+                <div class="sidebar-icon sidebar-subscription">
+                    <h3 style="background-color: transparent;"><i class="fa-solid fa-scissors"></i></h3>
+                    <p style="background-color: transparent;">Your Clips</p>
+                </div>
+
+                <div class="hr"></div>
+                
+
+            </div>
+        </div>
+
+        <!-- This is the main part of the youtube where there are video and the some option are available. -->
+        <div class="main">
+
+            <!-- This is for the topic in the navbar of the youtube.  -->
+            <div class="main-nav">
+                <ul>
+                    <li style="background-color: white; color: black;">All</li>
+                    <li>Music</li>
+                    <li>American Sports</li>
+                    <li>Movie Musicals</li>
+                    <li>Computer Programming</li>
+                    <li><i  style="background-color: transparent;" class="fa-solid fa-chevron-right"></i></li>
+                </ul>
+            </div>
+
+            <!-- This is for the youtube videos or videos thumbnail with the youtube name, img and video titile etc.  -->
+            <!-- This is the main div for the video -->
+            <div class="videos">
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This is for the single video                 -->
+                <div class="video">
+                    <!-- This is for the image of the vidoe.  -->
+                    <div class="video-img">
+                        <img src="assets/card1img.jpeg" alt="">
+                    </div>
+
+                    <!-- This is for the youtube channel logo and the vidoe title, channel name and the views. -->
+                    <div class="video-description">
+                        <!-- This is for the logo  -->
+                       <div class="video-logo">
+                           <img src="assets/card1img.jpeg" alt="">
+                       </div>
+
+                       <!-- This if the video name, channel name and the views and upload date.  -->
+                        <div class="video-desc">
+                            <h4 class="video-title">Binary Tree in Data Structure | All about Binary Tree | DSA Course</h4>
+                            <p class="channel-name">Apna College</p>
+                            <div class="video-views">
+                                <p class="video-total-views">1.7M views</p>
+                                <ul>
+                                    <li>3 Years Ago</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- This is for the three dot in the video  -->
+                        <div class="video-three-dot">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            
+        </div>
+
+    </main>
+    
+</body>
+</html>
